@@ -1,9 +1,20 @@
-# Common Setup Notes
+export default function SetupCommon() {
+  return (
+    <>
+      <h2>Common setup steps</h2>
+      <ol>
+        <li>Open the purchased product</li>
+        <li>Connect the correct data source</li>
+        <li>Confirm access permissions</li>
+        <li>Refresh the report</li>
+      </ol>
 
-Use this shared content for setup-related instructions that apply across multiple products.
-
-## Common setup steps
-1. Open the purchased product
-2. Connect the correct data source
-3. Confirm access permissions
-4. Refresh the report
+      <h2>Before you start</h2>
+      <ul>
+        <li>Make sure you are using the correct Google account</li>
+        <li>Check that your data source has enough permissions</li>
+        <li>Review the selected date range before validating data</li>
+      </ul>
+    </>
+  );
+}
