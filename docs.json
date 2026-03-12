@@ -7,15 +7,60 @@
     "light": "#12B28C",
     "dark": "#0A7A60"
   },
+  "seo": {
+    "indexing": "navigable"
+  },
   "navigation": {
     "groups": [
       {
-        "group": "Help Center",
+        "group": "Home",
         "pages": ["index"]
       },
       {
-        "group": "Shared Guides",
-        "pages": ["connect-ga4"]
+        "group": "Looker Studio",
+        "expanded": true,
+        "groups": [
+          {
+            "group": "SEO",
+            "expanded": true,
+            "pages": [
+              "lookerstudio/seo/setup",
+              "lookerstudio/seo/overview",
+              "lookerstudio/seo/cannibalization",
+              "lookerstudio/seo/kw-ranking",
+              "lookerstudio/seo/search-intent"
+            ]
+          },
+          {
+            "group": "Ecommerce",
+            "pages": [
+              "lookerstudio/ecommerce/setup",
+              "lookerstudio/ecommerce/overview",
+              "lookerstudio/ecommerce/products",
+              "lookerstudio/ecommerce/time-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Tools",
+        "pages": [
+          "tools/content-analyzer"
+        ]
+      },
+      {
+        "group": "n8n Workflows",
+        "pages": [
+          "n8n/news-gather"
+        ]
+      },
+      {
+        "group": "Hidden Shared Sources",
+        "hidden": true,
+        "pages": [
+          "_shared/setup-common",
+          "_shared/notes-common"
+        ]
       }
     ]
   }
