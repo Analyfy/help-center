@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Help Center",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#12B28C",
-    "dark": "#0A7A60"
+    "primary": "#0e0d94",
+    "light": "#1d12b3",
+    "dark": "#70BEF5"
   },
   "seo": {
     "indexing": "navigable"
@@ -60,6 +60,51 @@
         "pages": [
           "_shared/lookerstudio/setup-common",
           "_shared/notes-common"
+        ]
+      }
+    ]
+  },
+  "favicon": "/images/Analyfyicon.webp",
+  "logo": {
+    "light": "/images/Logow.png",
+    "dark": "/images/Logowhite.png"
+  },
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-VH8GDGTKSH"
+    }
+  },
+  "metadata": {
+    "timestamp": false
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "https://analyfy.com/"
+      },
+      {
+        "label": "Products",
+        "href": "https://analyfy.com/"
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "Pages",
+        "items": [
+          {
+            "label": "Blog",
+            "href": "https://payhip.com/Analyfy/privacy"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://payhip.com/Analyfy/privacy"
+          }
         ]
       }
     ]
