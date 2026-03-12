@@ -54,14 +54,14 @@
           "n8n/news-gather"
         ]
       },
-    {
-  "group": "Hidden Shared Sources",
-  "hidden": true,
-  "pages": [
-    "_shared/lookerstudio/setup-common",
-    "_shared/notes-common"
-  ]
-}
+      {
+        "group": "Hidden Shared Sources",
+        "hidden": true,
+        "pages": [
+          "_shared/lookerstudio/setup-common",
+          "_shared/notes-common"
+        ]
+      }
     ]
   }
 }
