@@ -1,0 +1,20 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Help Center",
+  "theme": "mint",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#12B28C",
+    "dark": "#0A7A60"
+  },
+  "navigation": [
+    {
+      "group": "Help Center",
+      "pages": ["index"]
+    },
+    {
+      "group": "Shared Guides",
+      "pages": ["connect-ga4"]
+    }
+  ]
+}
