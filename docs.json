@@ -58,7 +58,7 @@
         "group": "Hidden Shared Sources",
         "hidden": true,
         "pages": [
-          "_shared/setup-common",
+          "_shared/lookerstudio/setup-common",
           "_shared/notes-common"
         ]
       }
